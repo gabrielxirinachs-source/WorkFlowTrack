@@ -1,0 +1,26 @@
+# PHP
+*.log
+*.cache
+/vendor/
+composer.lock
+
+# Environment & config secrets
+.env
+config/secrets.php
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Uploaded files
+public/uploads/
+
+# Database dumps
+*.sql.bak
